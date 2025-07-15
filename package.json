@@ -1,20 +1,13 @@
 {
-  "name": "express-sample",
+  "name": "ia-winners-hub-api",
   "version": "1.0.0",
-  "description": "Hello world app with express 4",
+  "description": "API para servir la configuración del chatbot",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [
-    "express",
-    "hello-world"
-  ],
-  "author": "Easypanel",
-  "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.1.3",
-    "express": "^4.15.0"
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
   }
 }
