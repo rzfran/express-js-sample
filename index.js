@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 // Esto es MUY IMPORTANTE. Solo permite que tu aplicación de Cloudflare
 // (u otra URL que especifiques) pueda hacer peticiones a esta API.
 // Si no sabes la URL final de tu app, puedes usar '*' temporalmente, pero es menos seguro.
-const whitelist = ['https://mi-app-123.pages.dev']; // <-- CAMBIA ESTO por la URL de tu app en Cloudflare
+const whitelist = ['https://aistudio.google.com']; // <-- CAMBIA ESTO por la URL de tu app en Cloudflare
 const corsOptions = {
   origin: function (origin, callback) {
     if (!origin || whitelist.indexOf(origin) !== -1) {
